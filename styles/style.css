@@ -61,6 +61,7 @@ section{
 
 section > p{
     padding-bottom: 12px;
+    text-shadow: 1px 1px 0px black;
 }
 
 section.normal{
@@ -74,7 +75,7 @@ section.imagem{
 }
 
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.212);
+    background-color: rgba(0, 0, 0, 0.531);
     display: inline-block;
     padding: 15px;
     border-radius: 20px;
@@ -87,7 +88,7 @@ section#img01{
 /*background: blue url('images/wallpaper002.jpg') center center / cover no-repeat fixed*/
 
 section#img02{
-    background: black url('../images/background002.jpg') center left / cover no-repeat fixed;
+    background: black url('../images/background002.jpg') center right / cover no-repeat fixed;
 }
 
 footer{
